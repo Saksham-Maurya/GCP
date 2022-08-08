@@ -1,0 +1,10 @@
+# [START gae_python37_cloudsql_config]
+runtime: python39
+service: python-service
+
+env_variables:
+  CLOUD_SQL_USERNAME: sunny
+  CLOUD_SQL_PASSWORD: sunny123
+  CLOUD_SQL_DATABASE_NAME: mylearning-db
+  CLOUD_SQL_CONNECTION_NAME: pacific-formula-335414:us-central1:mylearning-sqlinstance
+# [END gae_python37_cloudsql_config]
